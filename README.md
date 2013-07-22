@@ -26,8 +26,6 @@ Note these are my tools and in no way officially supported by Forgerock. They ar
 <br/>
 <b>delete_user</b> - deletes user object.  Takes uid of user as arg 1
 <br/>
-<b>update_user</b> - updates existing user, using PUT verb.  Requires uid as arg 1 and JSON payload of new object as arg 2
-<br/>
 <b>patch_user</b> - updates specific attributes of existing user, using PATCH verb.  Requires uid as arg 1 and JSON payload of new object as arg 2
 <br/>
 
