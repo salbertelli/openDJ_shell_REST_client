@@ -28,4 +28,5 @@ Note these are my tools and in no way officially supported by Forgerock. They ar
 <br/>
 <b>patch_user</b> - updates specific attributes of existing user, using PATCH verb.  Requires uid as arg 1 and JSON payload of new object as arg 2
 <br/>
+<b>create_user</b> - creates a user object based on given JSON payload.
 
