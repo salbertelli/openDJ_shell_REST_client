@@ -1,0 +1,16 @@
+#!/bin/bash
+#OpenDJ Shell REST Client
+#sudo chmod 400 once set!
+
+#URL Protocol of OpenDJ server. (HTTP or HTTPS)
+PROTOCOL=HTTP 
+
+#FQDN
+OPENDJ_SERVER=opendj.example.com 
+
+#Server Port. (8080)
+OPENDJ_SERVER_PORT=8080
+
+#User that binds to OpenDJ instance via HTTP Basic Authentication for searching/updating
+USERNAME=smof
+PASSWORD=password
