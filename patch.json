@@ -1,0 +1,7 @@
+[
+  {
+    "operation": "replace",
+    "field": "/contactInformation/telephoneNumber",
+    "value": "0987654321"
+  }
+]
