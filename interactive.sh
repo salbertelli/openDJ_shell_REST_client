@@ -12,6 +12,7 @@ function menu() {
 	echo "2:  Delete a user"
 	echo "3:  Create a user"	
 	echo "4:  Update a user using PATCH"	
+	echo "5:  Perform simple username and password bind"
 	echo ""
 	echo "X:  Exit"
 	echo "----------------------------------------------------------------------------------"
@@ -36,6 +37,11 @@ function menu() {
 			patch_user
 			;;
 
+		5)
+
+			bind_user
+			;;
+
 
 		[x] | [X])
 				clear	
@@ -50,6 +56,24 @@ function menu() {
 	esac
 
 }
+
+
+#calls bind_user
+function bind_user() {
+
+	clear
+	echo "Enter uid:"
+	read uid
+	echo ""
+	echo "Enter password:"
+	read -s password
+	./bind_user.sh $uid $password
+	echo ""
+	read -p "Press [Enter] to continue"
+	menu
+
+}
+
 
 
 #calls patch_user

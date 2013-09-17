@@ -8,7 +8,7 @@ Edit the settings file with server and port values for OpenDJ instance.
 <br/>
 <b>Requirements</b>
 <br/>
-The scripts were tested curl v7.22.0. 
+The scripts were tested curl v7.22.0 and OpenDJ 2.6
 <br/>
 Use as-is, no warranty implied. Leave this readme and any attribution in place. Simon Moffatt, 2013 
 <br/>
@@ -29,4 +29,6 @@ Note these are my tools and in no way officially supported by Forgerock. They ar
 <b>patch_user</b> - updates specific attributes of existing user, using PATCH verb.  Requires uid as arg 1 and JSON payload of new object as arg 2
 <br/>
 <b>create_user</b> - creates a user object based on given JSON payload.
+<br/>
+<b>bind_user</b> - performs a simple bind.  Takes username as arg 1 and password as arg 2
 
